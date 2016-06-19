@@ -8,7 +8,95 @@ article#hero{
 	background-repeat: no-repeat;
 	height: 80vh;
 }
+article#hero h3{
+	font-size: 200%;
+}
 
+/* ************************* N E O N ********************************** */
+article#neonLights{
+	font-family: 'Clicker Script', cursive;
+	background-color: black;
+	font-size: 300%;
+	text-align: center;
+	color: rgba(70, 70, 70, 0.6);
+	font-weight: bolder;
+	padding: 20px;
+}
+.neon0Off{
+	margin: 20px;
+	border-radius: 50%;
+	max-width: 200px;
+	max-height: 200px;
+	border: 5px solid rgba(70, 70, 70, 0.6);
+}
+.neon0On{
+	margin: 20px;
+	border-radius: 50%;
+	max-width: 200px;
+	max-height: 200px;
+	border: 5px solid #EEDDE0; 
+	box-shadow: 
+	0 0 5px #E6A1AD,
+	0 0 10px #EC637B,
+	0 0 15px #E6A1AD,
+	0 0 20px #F36780,
+	inset 0 0 5px #E6A1AD,
+	inset 0 0 10px #EC637B,
+	inset 0 0 15px #E6A1AD,
+	inset 0 0 20px #F36780;
+}
+.neon1Off{
+	transform: translate(0, 10%) skewY(175deg);
+	padding: 0;
+	margin: 0;
+}
+.neon1On{
+	transform: translate(0, 10%) skewY(175deg);
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #EEDDE0;
+	text-shadow: 
+	0 0 5px #B7A1E6,
+	0 0 10px #9063EC,
+	0 0 15px #B7A1E6,
+	0 0 20px #9467F3;
+}
+.neon2Off{
+	transform: translate(0, -50%);
+	padding: 0;
+	margin: 0;
+}
+.neon2On{
+	transform: translate(0, -50%);
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #EEDDE0;
+	text-shadow: 
+	0 0 5px #D0E6A1,
+	0 0 10px #C0EC63,
+	0 0 15px #D0E6A1,
+	0 0 20px #C6F367;
+}
+.neon3Off{
+	transform: translate(0, -50%) skewY(170deg);
+	padding: 0;
+	margin: 0;
+}
+.neon3On{
+	transform: translate(0, -50%) skewY(170deg);
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #EEDDE0;
+	text-shadow: 
+	0 0 5px #A1E6DA,
+	0 0 10px #63ECD4,
+	0 0 15px #A1E6DA,
+	0 0 20px #67F3DA;
+}
+/* ***************************** P O R T F O L I O ********************* */
 article#Portfolio{
 	text-align: center;
 }
@@ -37,59 +125,3 @@ article#Portfolio section img#health:hover{
 	transform: translate3d(0px, -1060px, 0px);
 }
 
-/* *            *             *    BLINKING CURSOR     *                 *      */
-.blinking-cursor {
-  font-weight: 100;
-  font-size: 30px;
-  color: #2E3D48;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
