@@ -1,0 +1,95 @@
+header li{
+	display: inline-block;
+}
+article#hero{
+	background-color: white;
+/*	background-image: url(background.png);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+article#Portfolio{
+	text-align: center;
+}
+article#Portfolio section{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	display: inline-block;
+	margin: 2%;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+article#Portfolio img{
+	transition: transform 3s ease-in-out;
+}
+article#Portfolio section img#nista:hover{
+	transform: translate3d(0px, -803px, 0px);
+}
+article#Portfolio section img#galerija:hover{
+	transform: translate3d(0px, -260px, 0px);
+}
+article#Portfolio section img#salon:hover{
+	transform: translate3d(0px, -504px, 0px);
+}
+article#Portfolio section img#health:hover{
+	transform: translate3d(0px, -1060px, 0px);
+}
+
+/* *            *             *    BLINKING CURSOR     *                 *      */
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
