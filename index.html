@@ -4,7 +4,8 @@
 		<title>Mladen Orozović portfolio</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="portfolio.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -26,15 +27,14 @@
 						<a href="#">Learnings</a>
 					</li>
 					<li>
-						<a href="#">About me</a>
+						<a href="#contact">Contact</a>
 					</li>
 				</ol>
 			</nav>
 		</header>
 
 		<article id="hero">
-			<h1>Hi, I'm Mladen Orozović</h1>
-			<p>Welcome to my portfolio page</p>
+
 			<h3><span id="pointHere"></span><span class="blinking">|</span></h3>
 		</article>
 		
@@ -46,39 +46,79 @@
 			</div>
 		</article>
 
-		<object>
-			<embed src="dclogo.svg" width="40%" height="40%">
-		</object>
-		
-		<object>
-			<embed src="vine.svg" width="40%" height="40%">
-		</object>
-
 		<article id="Portfolio">
 			<h2>PORTFOLIO</h2>
 			<section>
-				<img id="nista" src="nista.jpg">
+				<img id="nista" src="Images/nista.jpg">
 			</section>
 			<section>
-				<img id="galerija" src="galerija.jpg">
+				<img id="galerija" src="Images/galerija.jpg">
 			</section>
 			<section>
-				<img id="salon" src="salonlepote.jpg">
+				<img id="salon" src="Images/salonlepote.jpg">
 			</section>
 			<section>
-				<img id="health" src="healthcoach.jpg">
+				<img id="health" src="Images/healthcoach.jpg">
 			</section>
 		</article>
 
-		<article id="Skils">
-			<h2>SKILS</h2>
-			<p>html</p>
-			<p>css</p>
-			<p>javascript</p>
+		<article id="skils">
+			<h2>SKILL SELECT</h2>
+			<section class="skillSelection">
+				<svg class="selector" viewBox="0 0 100 100" width="100px">
+		  			<path d="M25,4 L4,4 L4,25" fill="none" stroke="black" stroke-width="9" />
+		  			<path class="blinkPath" d="M22,4 L4,4 L4,22" fill="none" stroke="blue" stroke-width="3" />
+	  				<path d="M4,75 L4,96 L25,96" fill="none" stroke="black" stroke-width="9" />
+	  				<path class="blinkPath" d="M4,78 L4,96 L22,96" fill="none" stroke="blue" stroke-width="3" />
+	  				<path d="M75,96 L96,96 L96,75" fill="none" stroke="black" stroke-width="9" />
+	  				<path class="blinkPath" d="M78,96 L95,96 L95,78" fill="none" stroke="blue" stroke-width="3" />
+		  			<path d="M96,25 L96,4 L75,4" fill="none" stroke="black" stroke-width="9" />
+		  			<path class="blinkPath" d="M95,22 L95,4 L78,4" fill="none" stroke="blue" stroke-width="3" />
+				</svg>
+				<img id="showFirst" src="Images/htmlLogo.png">
+				<img id="showSecond" src="Images/cssLogo.png">
+				<img id="showThird" src="Images/jsLogo.png">
+				<img id="showFourth" src="Images/jqLogo.png">
+			</section>
+
+			<section id="ryuContainer">
+			    <div class="ryuBorder">
+			      	<svg class="writeBorder" width="205px" height="205px">
+			 			<path id="path3786" d="m66.154 6.7291-2.9036 0.73136c-1.597 0.40271-3.262 0.73292-3.699 0.73292-0.95061 0-1.6915 0.66335-1.6971 1.5205-0.01104 1.5716-1.055 1.907-5.9431 1.9112-4.0926 0.0035-5.6259 0.2744-8.1965 1.4424-1.2038 0.54695-2.127 0.67855-5.8587 0.84075-4.489 0.19512-5.6593 0.47328-6.5557 1.5534-0.54975 0.66241-1.3164 0.54394-1.8612-0.28754l-0.48133-0.73448-1.3971 1.3064c-0.76811 0.71848-1.6263 1.3128-1.9081 1.3205-2.4294 0.0665-8.3309 0.54249-8.7341 0.70479-0.36886 0.14848-0.48894 0.47251-0.44069 1.1892 0.07608 1.1294-0.33855 1.5094-1.6518 1.5158-1.1712 0.0057-1.7366 0.69807-1.9847 2.4332-0.27023 1.8897-0.54672 2.1981-1.7675 1.969l-0.98452-0.1844 0.09532 1.8221 0.09689 1.8221-1.1439 0.14377c-1.3424 0.1678-1.3388 0.08085-0.15471 3.8568 1.2659 4.0369 1.3053 4.3752 0.60165 5.1242-0.52205 0.5557-0.5628 0.76581-0.29223 1.4768 0.17351 0.45592 0.5069 1.6648 0.74229 2.6863 0.23539 1.0216 0.87699 2.854 1.4252 4.0725 0.98524 2.1898 1.0351 2.7864 0.23285 2.7864-0.70558 0-0.46571 0.39386 1.1861 1.9487l1.5987 1.5049-0.19065 2.9161c-0.22916 3.501-0.02744 4.198 2.4175 8.3466 1.9942 3.3837 2.7255 5.16 3.1661 7.6902 0.20766 1.1925 0.64081 2.3458 1.1955 3.1833l0.87044 1.3127-1.4346 1.4799c-2.8898 2.9809-4.0546 6.0339-4.3772 11.48-0.26386 4.4537-0.29728 4.5612-4.7023 14.449-7.0324 15.786-10.406 25.838-10.422 31.055-0.0072 2.5318 0.89984 5.5244 3.7021 12.205 2.8249 6.7344 4.1072 10.353 5.4321 15.326 1.3656 5.1259 2.6452 7.982 4.3335 9.6702 1.5518 1.5518 2.5104 2.0337 4.4428 2.2332 0.93264 0.0962 1.6252 0.31797 1.7143 0.55006 0.08218 0.21421-0.19307 1.0882-0.61103 1.9425-1.1528 2.3562-4.6706 8.1216-5.9149 9.6936-1.0001 1.2634-1.1033 1.5542-1.1033 3.0864 0 2.0737 0.58324 3.2926 1.8253 3.8115 1.5594 0.65157 7.1936 1.3373 11.349 1.3815 3.7171 0.0395 3.9643 0.007 4.5241-0.59071 0.32573-0.34774 1.0923-0.76684 1.7034-0.9314 1.8439-0.4965 3.5042-2.6736 4.9164-6.4478 0.33102-0.88473 1.2504-2.4652 2.0441-3.513 0.79367-1.0478 1.6167-2.3197 1.8284-2.8254 0.85635-2.0454 0.22086-4.3215-2.3332-8.3528l-1.7112-2.7004-0.008-4.4444c-0.0085-4.7916-0.03216-4.8935-1.769-7.7574-2.1933-3.6166-2.7886-5.6997-3.0942-10.831-0.09827-1.6502-0.37735-3.7395-0.6204-4.6429-0.24306-0.90337-0.37166-2.0739-0.28598-2.6019 0.14631-0.90158 1.2933-3.8407 3.0223-7.7464 1.0075-2.2759 5.9203-9.6748 7.709-11.61 1.2824-1.3872 1.4506-1.4864 1.6393-0.97357 1.6221 4.4076 6.2911 16.322 7.5589 19.289 2.5981 6.0796 3.7303 7.9356 8.0168 13.144 3.2381 3.9346 4.8797 6.4049 6.4541 9.7155 0.71003 1.4931 1.7843 3.7434 2.3879 5.0008 0.60351 1.2573 1.5424 2.8043 2.0862 3.438 1.2246 1.427 3.3229 2.5898 5.1617 2.8614 1.5486 0.22871 2.461 0.93958 2.4613 1.9159 0.000128 0.35362 0.40274 1.4788 0.89388 2.5004 1.1178 2.325 1.1333 3.4646 0.0875 6.5728-0.70676 2.1007-0.81937 2.8728-0.82825 5.7149-0.01 3.2085 0.01376 3.3283 0.96889 5.0898 0.53802 0.99231 1.2946 2.0538 1.6815 2.3582 0.89498 0.70401 3.6854 0.73572 9.839 0.11096 5.2847-0.53655 7.4267-1.0331 8.9326-2.0706 1.7469-1.2036 2.2022-2.3224 2.0581-5.0601-0.13929-2.6466-0.75218-4.4243-2.6566-7.7152-2.5942-4.4827-3.5114-6.3132-4.1209-8.2184-0.33986-1.0623-1.2707-2.9262-2.0675-4.1428-1.8454-2.8178-1.9578-3.7588-0.92983-7.784 0.90337-3.5373 0.99658-6.1541 0.29222-8.2747-0.32623-0.98221-1.445-2.7512-3.1786-5.0304-4.1705-5.4831-5.2622-7.777-7.8121-16.413-0.81207-2.7504-2.0621-6.801-2.777-9.0013s-2.0612-7.2162-2.9926-11.145c-0.93138-3.9292-2.5199-9.9088-3.5302-13.288-2.1804-7.2926-2.4381-8.5716-1.7268-8.5716 0.27087 0 0.84671 0.25258 1.2799 0.56102 3.8577 2.7469 13.901-0.42496 16.312-5.1508 0.87021-1.7058 1.2317-4.4951 0.87825-6.7729-0.38278-2.4671-0.80894-3.4949-2.5785-6.2056-1.5102-2.3134-2.2094-4.1586-3.1927-8.4356-0.34327-1.4931-1.0631-3.9306-1.6002-5.4164-0.53717-1.4858-1.4184-4.5468-1.9581-6.8026-0.60728-2.5382-1.4312-5.0688-2.1613-6.64l-1.1799-2.5394 0.60947-0.98452c0.33474-0.54163 0.81086-1.1529 1.058-1.358 0.84885-0.70448 2.1824-2.8824 1.9237-3.1411-0.14862-0.14863-0.70952-0.12802-1.3486 0.04845-1.5222 0.42031-2.5302-0.05525-3.3349-1.5721-0.4594-0.86602-0.58537-1.4379-0.44226-2.0081 0.21514-0.85722 3.0463-3.8771 3.6349-3.8771 0.19572 0 0.91861 0.60228 1.6049 1.3393l1.2471 1.3408 0.71416-0.77043c0.5417-0.58419 0.88442-0.72878 1.4158-0.5954 0.93631 0.23501 0.93061-0.47268-0.02033-2.8129-0.39622-0.97509-0.65675-1.9373-0.57977-2.1378 0.09883-0.25758 0.88134-0.36412 2.666-0.36412 1.7225 0 2.7014-0.12851 3.077-0.40318 0.54125-0.39577 0.54081-0.41276 0.008-1.0017-0.29837-0.3297-1.5498-1.246-2.7817-2.0362-1.2319-0.79024-2.2394-1.6299-2.2394-1.8643 0-0.23446 0.60901-0.99461 1.3549-1.6893l1.3564-1.2627-1.2846-0.55789c-0.703-0.302-2.257-0.955-3.45-1.446-1.193-0.492-2.447-1.152-2.787-1.468-0.62-0.578-0.661-0.722-0.725-2.553l-0.0344-1.0001-3.2567 0.10002-3.2552 0.09845 0.18441-0.92514 0.18596-0.92358-1.8159 0.18596c-1.5742 0.16128-1.9155 0.10629-2.5691-0.40787l-0.75324-0.59228z" stroke="#000" stroke-width=".80012" fill="none"/>
+					</svg>
+			    </div>
+			    <div id="ryuOverlay">&nbsp;</div>
+			    <div class="ryuFull">
+			    	<img src="Images/Ryu.png">
+			    </div>
+			    <img class="ryuJump" src="Images/RyuMoving.gif">
+			    <div  class="ryuFire">
+			    	<img src="Images/ryuFire.png">
+				</div>
+			</section>
 		</article>
 		
-		<footer>
+		<footer id="contact">
+			<h2>Get In Touch</h2>
+			<table id="rcas">
+				<tr><td> </td><td>
+				<a href="http://codepen.io/mladjone/"><img src="Images/codepen.png"></a>
+				</td><td> </td><td> </td><td> </td><td> </td></tr>
+				<tr><td> </td><td> </td><td> </td><td>
+				<a href="https://www.facebook.com/mladjone"><img src="Images/square-facebook-128.png"></a>
+				</td><td> </td><td> </td></tr>
+				<tr><td>
+				<a href="https://github.com/mladjone"><img src="Images/github.png"></a>
+				</td><td> </td><td> </td><td> </td><td> </td><td></td></tr>
+				<tr><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr>
+				<tr><td> </td><td> </td><td> </td><td> </td><td>
+				<a href="https://twitter.com"><img src="Images/twitter-square-social-media-128.png"></a>
+				</td><td> </td></tr>
+				<tr><td>
+				<a href="https://plus.google.com/112717693841726522024"><img src="Images/google_plus-128.png"></a>
+				</td><td> </td><td> </td><td> </td><td> </td><td> </td></tr>
+			</table>
 		</footer>
-		<script src="proba2.js" type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>
 	</body>
 </html>

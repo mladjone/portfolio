@@ -1,0 +1,308 @@
+body{
+	margin: 0;
+}
+header{
+	text-align: center;
+	background-color: #00477A;
+	margin: 0;
+	box-shadow: 0 8px 20px -7px white;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+header nav ol{
+	padding: 0;
+	margin: 0;
+}
+header nav ol li{
+	display: inline-block;
+	padding: 15px;
+}
+header nav ol li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-bottom: 10px;
+	transition: all 0.1s ease-in-out;
+}
+header nav ol li a:hover{
+	border-bottom: 2px solid white;
+	color: #79BDE0;
+	padding-bottom: 0px;
+	transition: all 0.1s ease-in-out;
+}
+article#hero{
+	background-color: black;
+	background-image: url("Images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+}
+article#hero h3{
+	font-size: 300%;
+	padding: 20% 40% 0 5%;
+	margin: 0;
+}
+
+/* ************************* N E O N ********************************** */
+article#neonLights{
+	font-family: 'Clicker Script', cursive;
+	background-color: transparent;
+	font-size: 300%;
+	text-align: center;
+	color: rgba(70, 70, 70, 0.6);
+	font-weight: bolder;
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+.neon0Off{
+	margin: 20px;
+	border-radius: 50%;
+	max-width: 200px;
+	max-height: 200px;
+	border: 5px solid rgba(70, 70, 70, 0.6);
+}
+.neon0On{
+	margin: 20px;
+	border-radius: 50%;
+	max-width: 200px;
+	max-height: 200px;
+	border: 5px solid #EEDDE0; 
+	box-shadow: 
+	0 0 5px #E6A1AD,
+	0 0 10px #EC637B,
+	0 0 15px #E6A1AD,
+	0 0 20px #F36780,
+	inset 0 0 5px #E6A1AD,
+	inset 0 0 10px #EC637B,
+	inset 0 0 15px #E6A1AD,
+	inset 0 0 20px #F36780;
+}
+.neon1Off{
+	transform: translate(0, 10%) skewY(175deg);
+	padding: 0;
+	margin: 0;
+}
+.neon1On{
+	transform: translate(0, 10%) skewY(175deg);
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #EEDDE0;
+	text-shadow: 
+	0 0 5px #B7A1E6,
+	0 0 10px #9063EC,
+	0 0 15px #B7A1E6,
+	0 0 20px #9467F3;
+}
+.neon2Off{
+	transform: translate(0, -50%);
+	padding: 0;
+	margin: 0;
+}
+.neon2On{
+	transform: translate(0, -50%);
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #EEDDE0;
+	text-shadow: 
+	0 0 5px #D0E6A1,
+	0 0 10px #C0EC63,
+	0 0 15px #D0E6A1,
+	0 0 20px #C6F367;
+}
+.neon3Off{
+	transform: translate(0, -50%) skewY(170deg);
+	padding: 0;
+	margin: 0;
+}
+.neon3On{
+	transform: translate(0, -50%) skewY(170deg);
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	color: #EEDDE0;
+	text-shadow: 
+	0 0 5px #A1E6DA,
+	0 0 10px #63ECD4,
+	0 0 15px #A1E6DA,
+	0 0 20px #67F3DA;
+}
+/* ***************************** P O R T F O L I O ********************* */
+article#Portfolio{
+	text-align: center;
+}
+article#Portfolio section{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	display: inline-block;
+	margin: 2%;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+article#Portfolio img{
+	transition: transform 3s ease-in-out;
+}
+article#Portfolio section img#nista:hover{
+	transform: translate3d(0px, -803px, 0px);
+}
+article#Portfolio section img#galerija:hover{
+	transform: translate3d(0px, -260px, 0px);
+}
+article#Portfolio section img#salon:hover{
+	transform: translate3d(0px, -504px, 0px);
+}
+article#Portfolio section img#health:hover{
+	transform: translate3d(0px, -1060px, 0px);
+}
+/***********************************************************************************/
+#skils{
+	text-align: center;
+	background-color: white;
+	background-image: url("Images/skillBackground.jpg");
+	background-size: contain;
+}
+#skils h2{
+	font-size: 36px;
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+	padding: 50px 0;
+	background: -webkit-repeating-linear-gradient(-45deg, #FF7214 1%, #FFB514 2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skillSelection{
+	font-size: 0;
+	margin: 50px 0 0 -100px;
+}
+.skillSelection div{
+	display: inline-block;
+}
+.skillSelection img{
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+.selector{
+	position: relative;
+	left: 100px;
+}
+.selector1{
+	left: 200px;
+}
+.selector2{
+	left: 300px;
+}
+.selector3{
+	left: 400px;
+}
+/* dude */
+#ryuContainer{
+	position: relative;
+	overflow: hidden;
+	height: 205px;
+	width: 600px;
+	background: transparent;
+	margin: 100px auto;
+
+}
+	.ryuBorder{
+		position: absolute;
+		z-index: 3;
+	}
+		.writeBorder{
+			fill:#fff;
+			stroke:#000000;
+			stroke-width:5;
+			stroke-miterlimit:5;
+			stroke-dasharray: 2000;
+			stroke-dashoffset:0;
+			-webkit-animation: dash 4s linear forwards;
+			-o-animation: dash 4s linear forwards;
+			-moz-animation: dash 4s linear forwards;
+			animation: dash 4s linear forwards;
+		}
+		@-webkit-keyframes dash {
+			from {
+				stroke-dashoffset: 2000;
+			}
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+	#ryuOverlay{
+		position: absolute;
+		z-index: 2;
+		height: 205px;
+		width: 198px;
+		background: white;
+	}
+	.ryuFull{
+		position: absolute;
+		z-index: 1;
+	}
+	.ryuJump{
+		position: absolute;
+		display: none;
+		z-index: 3;
+	}
+	.ryuFire{
+		position: absolute;
+		display: none;
+		z-index: 3;
+	}
+	.hadouken{
+		position: absolute;
+		top: 30px;
+		width: 150px;
+	}
+
+/* /dude */
+#my-div img{
+	width: 200px;
+}
+/* FFFFFFFFFFF OOOOOOOOOOO OOOOOOOOOOOO TTTTTTTTTTT EEEEEEEEEEEEEEEEE RRRRRRRRRRRRRRRRRR */
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	background-attachment: fixed;
+	background-image: url("Images/code.jpg");
+	background-size: cover;
+}
+footer h2{
+	padding: 30px;
+	margin: 0;
+}
+table#rcas{
+	display: inline-block;
+	background-color: orange;
+	background-image: url(Images/ja.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-collapse: collapse;
+}
+table#rcas td{
+	border: 4px solid black;
+}
+table#rcas tr:nth-child(2) td:nth-child(4),table#rcas tr:nth-child(1) td:nth-child(2),table#rcas tr:nth-child(3) td:nth-child(1),table#rcas tr:nth-child(5) td:nth-child(5),table#rcas tr:nth-child(6) td:nth-child(1){
+	background-color: black;
+}
+table#rcas td, table#rcas img{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+}
+table#rcas img{
+	transition: transform 1s;
+}
+table#rcas td:hover img{
+	transform: rotateY( 180deg );
+}
